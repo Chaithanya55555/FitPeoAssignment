@@ -1,15 +1,30 @@
-This automation script is designed to validate key functionalities of the FitPeo e-commerce platform using Java, Selenium, and TestNG. The script performs the following tasks:
+# FitPeo Automation Script
 
-Automating the Slider
+## Overview
+This repository contains an automation script designed to test the e-commerce functionality of the **FitPeo** platform. The script automates key tasks such as interacting with sliders, adding products to the cart, and verifying the total amount using **Java**, **Selenium**, and **TestNG**.
 
-Adjusts the slider to select a specific price range or filter.
-Verifies that the displayed products fall within the selected range.
-Adding Products to the Cart
+---
 
-Simulates adding products to the cart by interacting with "Add to Cart" buttons.
-Validates that the selected products are successfully added and appear in the cart.
-Verifying the Total Amount
+## Features
+### 1. Automating the Slider
+- Adjusts the price range or filters using the slider.
+- Verifies that displayed products match the selected criteria.
 
-Extracts the prices of individual products from the cart.
-Calculates the expected total and compares it with the amount displayed in the cart to ensure accuracy.
-This script is structured using the TestNG framework for better modularity and reporting. It employs Selenium WebDriver to automate browser actions, ensuring a seamless and efficient testing process for FitPeo's platform.
+### 2. Adding Products to the Cart
+- Simulates user actions to add products to the cart.
+- Validates product details, including name, quantity, and price.
+
+### 3. Verifying the Total Amount
+- Extracts individual product prices from the cart.
+- Calculates the expected total and compares it with the displayed amount.
+
+---
+
+## Prerequisites
+- Java Development Kit (JDK)
+- Maven for dependency management
+- Selenium WebDriver
+- TestNG Framework
+- ChromeDriver (or driver for your preferred browser)
+
+---
